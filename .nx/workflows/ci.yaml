@@ -1,6 +1,9 @@
 # yaml-language-server: $schema=https://snapshot.nx.app/nx-cloud/static/schemas/workflow.schema.json
 name: Nx Cloud CI
 
+env:
+  NX_CLOUD_BUFFER_TASK_COMPLETIONS: 'false'
+
 on:
   pull-requests:
     event: PR
@@ -29,9 +32,9 @@ jobs:
   main:
     runs-on: linux-large-js
     workers:
-      small: 2 linux-large-js
-      medium: 3 linux-large-js
-      large: 5 linux-large-js
+      small: 1 linux-large-js
+      medium: 4 linux-large-js
+      large: 7 linux-large-js
       main-job-worker:
         cpu: 4
         memory: 15GiB
