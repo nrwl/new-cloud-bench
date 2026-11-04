@@ -32,9 +32,9 @@ jobs:
   main:
     runs-on: linux-large-js
     workers:
-      small: 1 linux-large-js
-      medium: 4 linux-large-js
-      large: 7 linux-large-js
+      small: { count: 1, workload: 20% }
+      medium: 4
+      large: 7
       main-job-worker:
         cpu: 4
         memory: 15GiB
