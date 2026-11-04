@@ -118,5 +118,7 @@
   "analytics": false,
   "affected": {
     "legacy": true
-  }
+  },
+  "nxCloudId": "6aeb1c47ebbd44bc860042a2",
+  "nxCloudUrl": "https://snapshot.nx.app"
 }
