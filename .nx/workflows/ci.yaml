@@ -1,3 +1,4 @@
+# Temporarily inline; available as a default as of Nov 10.
 # yaml-language-server: $schema=https://snapshot.nx.app/nx-cloud/static/schemas/workflow.schema.json
 name: Nx Cloud CI
 
@@ -28,9 +29,30 @@ ultracache:
         - apps/shop-e2e/test-output/**/*.log
         - apps/shop-e2e/dist/.playwright/**/*.log
 
+launch-templates:
+  linux-benchmark:
+    resource-class: 'vm-agents-4'
+    image: 'ubuntu22.04-node20.19-v3'
+    init-steps:
+      - name: Git Checkout
+        uses: 'nrwl/nx-cloud-workflows/main/workflow-steps/checkout/main.yaml'
+        env:
+          GIT_CHECKOUT_DEPTH: 0
+          GIT_FILTER: 'tree:0'
+      - name: Restore npm cache
+        uses: 'nrwl/nx-cloud-workflows/main/workflow-steps/cache/main.yaml'
+        inputs:
+          key: '"npm" | package-lock.json'
+          paths: '~/.npm'
+          base-branch: 'main'
+      - name: Install Node Modules
+        uses: 'nrwl/nx-cloud-workflows/main/workflow-steps/install-node-modules/main.yaml'
+      - name: Install Playwright
+        script: npx playwright install --with-deps chromium
+
 jobs:
   main:
-    runs-on: linux-large-js
+    runs-on: linux-benchmark
     workers:
       small: { count: 1, workload: 20% }
       medium: 4
@@ -44,8 +66,6 @@ jobs:
             - targets: ['e2e*']
       stop-after: [test]
     steps:
-      - name: Install Playwright
-        run: npx playwright install --with-deps chromium
       - name: Run all checks concurrently
         run: |
           pids=()
