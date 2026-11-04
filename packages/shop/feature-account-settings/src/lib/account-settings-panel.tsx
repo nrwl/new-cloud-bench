@@ -21,7 +21,7 @@ export function AccountSettingsPanel({
         data-testid={`${ACCOUNT_SETTINGS_FEATURE.testId}-panel`}
       >
         <p className="feature-panel-hint">
-          Select an entry to see its details.
+          Choose an entry from the table to view its details.
         </p>
       </aside>
     );
