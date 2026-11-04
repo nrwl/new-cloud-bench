@@ -1,0 +1,10 @@
+export { RecommendationsHistoryPage } from './lib/recommendations-history-page';
+export { RecommendationsHistorySummary } from './lib/recommendations-history-summary';
+export { RecommendationsHistoryHeader } from './lib/recommendations-history-header';
+export { RecommendationsHistoryPanel } from './lib/recommendations-history-panel';
+export { RecommendationsHistoryTable } from './lib/recommendations-history-table';
+export { RecommendationsHistoryFilters } from './lib/recommendations-history-filters';
+export { useRecommendationsHistory } from './lib/use-recommendations-history';
+export * from './lib/recommendations-history.model';
+export * from './lib/recommendations-history.routes';
+export * from './lib/recommendations-history.utils';

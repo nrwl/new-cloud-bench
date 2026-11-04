@@ -1,0 +1,10 @@
+export { SizingInsightsPage } from './lib/sizing-insights-page';
+export { SizingInsightsSummary } from './lib/sizing-insights-summary';
+export { SizingInsightsHeader } from './lib/sizing-insights-header';
+export { SizingInsightsPanel } from './lib/sizing-insights-panel';
+export { SizingInsightsTable } from './lib/sizing-insights-table';
+export { SizingInsightsFilters } from './lib/sizing-insights-filters';
+export { useSizingInsights } from './lib/use-sizing-insights';
+export * from './lib/sizing-insights.model';
+export * from './lib/sizing-insights.routes';
+export * from './lib/sizing-insights.utils';

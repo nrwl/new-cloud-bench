@@ -1,0 +1,10 @@
+export { CompareDashboardPage } from './lib/compare-dashboard-page';
+export { CompareDashboardSummary } from './lib/compare-dashboard-summary';
+export { CompareDashboardHeader } from './lib/compare-dashboard-header';
+export { CompareDashboardPanel } from './lib/compare-dashboard-panel';
+export { CompareDashboardTable } from './lib/compare-dashboard-table';
+export { CompareDashboardFilters } from './lib/compare-dashboard-filters';
+export { useCompareDashboard } from './lib/use-compare-dashboard';
+export * from './lib/compare-dashboard.model';
+export * from './lib/compare-dashboard.routes';
+export * from './lib/compare-dashboard.utils';

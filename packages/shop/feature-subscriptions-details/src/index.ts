@@ -1,0 +1,10 @@
+export { SubscriptionsDetailsPage } from './lib/subscriptions-details-page';
+export { SubscriptionsDetailsSummary } from './lib/subscriptions-details-summary';
+export { SubscriptionsDetailsHeader } from './lib/subscriptions-details-header';
+export { SubscriptionsDetailsPanel } from './lib/subscriptions-details-panel';
+export { SubscriptionsDetailsTable } from './lib/subscriptions-details-table';
+export { SubscriptionsDetailsFilters } from './lib/subscriptions-details-filters';
+export { useSubscriptionsDetails } from './lib/use-subscriptions-details';
+export * from './lib/subscriptions-details.model';
+export * from './lib/subscriptions-details.routes';
+export * from './lib/subscriptions-details.utils';

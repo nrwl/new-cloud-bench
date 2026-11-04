@@ -1,0 +1,10 @@
+export { SearchDashboardPage } from './lib/search-dashboard-page';
+export { SearchDashboardSummary } from './lib/search-dashboard-summary';
+export { SearchDashboardHeader } from './lib/search-dashboard-header';
+export { SearchDashboardPanel } from './lib/search-dashboard-panel';
+export { SearchDashboardTable } from './lib/search-dashboard-table';
+export { SearchDashboardFilters } from './lib/search-dashboard-filters';
+export { useSearchDashboard } from './lib/use-search-dashboard';
+export * from './lib/search-dashboard.model';
+export * from './lib/search-dashboard.routes';
+export * from './lib/search-dashboard.utils';

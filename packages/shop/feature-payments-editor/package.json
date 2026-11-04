@@ -1,0 +1,32 @@
+{
+  "name": "@org/shop-feature-payments-editor",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:payments"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-forms-banner": "*",
+    "@org/shop-ui-inputs-card": "*",
+    "@org/shop-ui-forms-card": "*",
+    "@org/shop-util-validate-address": "*",
+    "@org/shop-util-math-percent": "*",
+    "@org/shop-util-i18n-address": "*",
+    "@org/shop-feature-recommendations-overview": "*"
+  }
+}

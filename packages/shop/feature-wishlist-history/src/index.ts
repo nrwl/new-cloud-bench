@@ -1,0 +1,10 @@
+export { WishlistHistoryPage } from './lib/wishlist-history-page';
+export { WishlistHistorySummary } from './lib/wishlist-history-summary';
+export { WishlistHistoryHeader } from './lib/wishlist-history-header';
+export { WishlistHistoryPanel } from './lib/wishlist-history-panel';
+export { WishlistHistoryTable } from './lib/wishlist-history-table';
+export { WishlistHistoryFilters } from './lib/wishlist-history-filters';
+export { useWishlistHistory } from './lib/use-wishlist-history';
+export * from './lib/wishlist-history.model';
+export * from './lib/wishlist-history.routes';
+export * from './lib/wishlist-history.utils';

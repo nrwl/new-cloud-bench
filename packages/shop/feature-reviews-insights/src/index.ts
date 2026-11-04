@@ -1,0 +1,10 @@
+export { ReviewsInsightsPage } from './lib/reviews-insights-page';
+export { ReviewsInsightsSummary } from './lib/reviews-insights-summary';
+export { ReviewsInsightsHeader } from './lib/reviews-insights-header';
+export { ReviewsInsightsPanel } from './lib/reviews-insights-panel';
+export { ReviewsInsightsTable } from './lib/reviews-insights-table';
+export { ReviewsInsightsFilters } from './lib/reviews-insights-filters';
+export { useReviewsInsights } from './lib/use-reviews-insights';
+export * from './lib/reviews-insights.model';
+export * from './lib/reviews-insights.routes';
+export * from './lib/reviews-insights.utils';

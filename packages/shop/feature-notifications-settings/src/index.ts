@@ -1,0 +1,10 @@
+export { NotificationsSettingsPage } from './lib/notifications-settings-page';
+export { NotificationsSettingsSummary } from './lib/notifications-settings-summary';
+export { NotificationsSettingsHeader } from './lib/notifications-settings-header';
+export { NotificationsSettingsPanel } from './lib/notifications-settings-panel';
+export { NotificationsSettingsTable } from './lib/notifications-settings-table';
+export { NotificationsSettingsFilters } from './lib/notifications-settings-filters';
+export { useNotificationsSettings } from './lib/use-notifications-settings';
+export * from './lib/notifications-settings.model';
+export * from './lib/notifications-settings.routes';
+export * from './lib/notifications-settings.utils';

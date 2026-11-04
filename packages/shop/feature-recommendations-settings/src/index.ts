@@ -1,0 +1,10 @@
+export { RecommendationsSettingsPage } from './lib/recommendations-settings-page';
+export { RecommendationsSettingsSummary } from './lib/recommendations-settings-summary';
+export { RecommendationsSettingsHeader } from './lib/recommendations-settings-header';
+export { RecommendationsSettingsPanel } from './lib/recommendations-settings-panel';
+export { RecommendationsSettingsTable } from './lib/recommendations-settings-table';
+export { RecommendationsSettingsFilters } from './lib/recommendations-settings-filters';
+export { useRecommendationsSettings } from './lib/use-recommendations-settings';
+export * from './lib/recommendations-settings.model';
+export * from './lib/recommendations-settings.routes';
+export * from './lib/recommendations-settings.utils';

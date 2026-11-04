@@ -1,0 +1,10 @@
+export { CatalogInsightsPage } from './lib/catalog-insights-page';
+export { CatalogInsightsSummary } from './lib/catalog-insights-summary';
+export { CatalogInsightsHeader } from './lib/catalog-insights-header';
+export { CatalogInsightsPanel } from './lib/catalog-insights-panel';
+export { CatalogInsightsTable } from './lib/catalog-insights-table';
+export { CatalogInsightsFilters } from './lib/catalog-insights-filters';
+export { useCatalogInsights } from './lib/use-catalog-insights';
+export * from './lib/catalog-insights.model';
+export * from './lib/catalog-insights.routes';
+export * from './lib/catalog-insights.utils';

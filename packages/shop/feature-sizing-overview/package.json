@@ -1,0 +1,31 @@
+{
+  "name": "@org/shop-feature-sizing-overview",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:sizing"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-forms-badge": "*",
+    "@org/shop-ui-overlay-card": "*",
+    "@org/shop-ui-layout-header": "*",
+    "@org/shop-util-format-percent": "*",
+    "@org/shop-util-format-text": "*",
+    "@org/shop-feature-wishlist-details": "*"
+  }
+}

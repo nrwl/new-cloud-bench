@@ -1,0 +1,34 @@
+{
+  "name": "@org/shop-feature-addresses-details",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:addresses"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-overlay-toolbar": "*",
+    "@org/shop-ui-navigation-panel": "*",
+    "@org/shop-ui-inputs-tile": "*",
+    "@org/shop-ui-core-badge": "*",
+    "@org/shop-ui-layout-chip": "*",
+    "@org/shop-util-collection-code": "*",
+    "@org/shop-util-format-phone": "*",
+    "@org/shop-util-async-currency": "*",
+    "@org/shop-feature-account-editor": "*"
+  }
+}

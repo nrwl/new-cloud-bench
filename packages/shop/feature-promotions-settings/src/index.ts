@@ -1,0 +1,10 @@
+export { PromotionsSettingsPage } from './lib/promotions-settings-page';
+export { PromotionsSettingsSummary } from './lib/promotions-settings-summary';
+export { PromotionsSettingsHeader } from './lib/promotions-settings-header';
+export { PromotionsSettingsPanel } from './lib/promotions-settings-panel';
+export { PromotionsSettingsTable } from './lib/promotions-settings-table';
+export { PromotionsSettingsFilters } from './lib/promotions-settings-filters';
+export { usePromotionsSettings } from './lib/use-promotions-settings';
+export * from './lib/promotions-settings.model';
+export * from './lib/promotions-settings.routes';
+export * from './lib/promotions-settings.utils';

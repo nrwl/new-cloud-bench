@@ -1,0 +1,10 @@
+export { PaymentsSettingsPage } from './lib/payments-settings-page';
+export { PaymentsSettingsSummary } from './lib/payments-settings-summary';
+export { PaymentsSettingsHeader } from './lib/payments-settings-header';
+export { PaymentsSettingsPanel } from './lib/payments-settings-panel';
+export { PaymentsSettingsTable } from './lib/payments-settings-table';
+export { PaymentsSettingsFilters } from './lib/payments-settings-filters';
+export { usePaymentsSettings } from './lib/use-payments-settings';
+export * from './lib/payments-settings.model';
+export * from './lib/payments-settings.routes';
+export * from './lib/payments-settings.utils';

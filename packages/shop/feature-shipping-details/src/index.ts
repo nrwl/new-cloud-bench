@@ -1,0 +1,10 @@
+export { ShippingDetailsPage } from './lib/shipping-details-page';
+export { ShippingDetailsSummary } from './lib/shipping-details-summary';
+export { ShippingDetailsHeader } from './lib/shipping-details-header';
+export { ShippingDetailsPanel } from './lib/shipping-details-panel';
+export { ShippingDetailsTable } from './lib/shipping-details-table';
+export { ShippingDetailsFilters } from './lib/shipping-details-filters';
+export { useShippingDetails } from './lib/use-shipping-details';
+export * from './lib/shipping-details.model';
+export * from './lib/shipping-details.routes';
+export * from './lib/shipping-details.utils';

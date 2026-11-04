@@ -1,0 +1,10 @@
+export { ProfileEditorPage } from './lib/profile-editor-page';
+export { ProfileEditorSummary } from './lib/profile-editor-summary';
+export { ProfileEditorHeader } from './lib/profile-editor-header';
+export { ProfileEditorPanel } from './lib/profile-editor-panel';
+export { ProfileEditorTable } from './lib/profile-editor-table';
+export { ProfileEditorFilters } from './lib/profile-editor-filters';
+export { useProfileEditor } from './lib/use-profile-editor';
+export * from './lib/profile-editor.model';
+export * from './lib/profile-editor.routes';
+export * from './lib/profile-editor.utils';

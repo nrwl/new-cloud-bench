@@ -1,0 +1,32 @@
+{
+  "name": "@org/shop-feature-gift-cards-wizard",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:gift-cards"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-commerce-panel": "*",
+    "@org/shop-ui-charts-list": "*",
+    "@org/shop-ui-charts-stat": "*",
+    "@org/shop-ui-marketing-header": "*",
+    "@org/shop-ui-typography-chip": "*",
+    "@org/shop-util-async-number": "*",
+    "@org/shop-util-storage-percent": "*"
+  }
+}

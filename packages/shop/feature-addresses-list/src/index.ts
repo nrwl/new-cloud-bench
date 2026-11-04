@@ -1,0 +1,10 @@
+export { AddressesListPage } from './lib/addresses-list-page';
+export { AddressesListSummary } from './lib/addresses-list-summary';
+export { AddressesListHeader } from './lib/addresses-list-header';
+export { AddressesListPanel } from './lib/addresses-list-panel';
+export { AddressesListTable } from './lib/addresses-list-table';
+export { AddressesListFilters } from './lib/addresses-list-filters';
+export { useAddressesList } from './lib/use-addresses-list';
+export * from './lib/addresses-list.model';
+export * from './lib/addresses-list.routes';
+export * from './lib/addresses-list.utils';

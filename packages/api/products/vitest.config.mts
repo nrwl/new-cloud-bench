@@ -1,0 +1,23 @@
+import { defineConfig } from 'vitest/config';
+
+export default defineConfig({
+  root: import.meta.dirname,
+  cacheDir: '../../../node_modules/.vite/packages/api/products',
+  test: {
+    name: '@org/products',
+    watch: false,
+    globals: true,
+    environment: 'node',
+    setupFiles: ['../../../tools/test-delay/setup.mjs'],
+    include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts}'],
+    reporters: ['default'],
+    // Spec files run one at a time so Nx owns concurrency and each CPU burn
+    // gets its own core.
+    fileParallelism: false,
+    coverage: {
+      reportsDirectory: './test-output/vitest/coverage',
+      provider: 'v8',
+      include: ['src/**/*.ts'],
+    },
+  },
+});

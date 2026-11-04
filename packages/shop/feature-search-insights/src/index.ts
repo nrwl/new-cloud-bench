@@ -1,0 +1,10 @@
+export { SearchInsightsPage } from './lib/search-insights-page';
+export { SearchInsightsSummary } from './lib/search-insights-summary';
+export { SearchInsightsHeader } from './lib/search-insights-header';
+export { SearchInsightsPanel } from './lib/search-insights-panel';
+export { SearchInsightsTable } from './lib/search-insights-table';
+export { SearchInsightsFilters } from './lib/search-insights-filters';
+export { useSearchInsights } from './lib/use-search-insights';
+export * from './lib/search-insights.model';
+export * from './lib/search-insights.routes';
+export * from './lib/search-insights.utils';

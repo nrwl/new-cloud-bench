@@ -1,0 +1,10 @@
+export { WishlistDashboardPage } from './lib/wishlist-dashboard-page';
+export { WishlistDashboardSummary } from './lib/wishlist-dashboard-summary';
+export { WishlistDashboardHeader } from './lib/wishlist-dashboard-header';
+export { WishlistDashboardPanel } from './lib/wishlist-dashboard-panel';
+export { WishlistDashboardTable } from './lib/wishlist-dashboard-table';
+export { WishlistDashboardFilters } from './lib/wishlist-dashboard-filters';
+export { useWishlistDashboard } from './lib/use-wishlist-dashboard';
+export * from './lib/wishlist-dashboard.model';
+export * from './lib/wishlist-dashboard.routes';
+export * from './lib/wishlist-dashboard.utils';

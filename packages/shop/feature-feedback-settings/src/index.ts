@@ -1,0 +1,10 @@
+export { FeedbackSettingsPage } from './lib/feedback-settings-page';
+export { FeedbackSettingsSummary } from './lib/feedback-settings-summary';
+export { FeedbackSettingsHeader } from './lib/feedback-settings-header';
+export { FeedbackSettingsPanel } from './lib/feedback-settings-panel';
+export { FeedbackSettingsTable } from './lib/feedback-settings-table';
+export { FeedbackSettingsFilters } from './lib/feedback-settings-filters';
+export { useFeedbackSettings } from './lib/use-feedback-settings';
+export * from './lib/feedback-settings.model';
+export * from './lib/feedback-settings.routes';
+export * from './lib/feedback-settings.utils';

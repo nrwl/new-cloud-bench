@@ -1,0 +1,10 @@
+export { CompareDetailsPage } from './lib/compare-details-page';
+export { CompareDetailsSummary } from './lib/compare-details-summary';
+export { CompareDetailsHeader } from './lib/compare-details-header';
+export { CompareDetailsPanel } from './lib/compare-details-panel';
+export { CompareDetailsTable } from './lib/compare-details-table';
+export { CompareDetailsFilters } from './lib/compare-details-filters';
+export { useCompareDetails } from './lib/use-compare-details';
+export * from './lib/compare-details.model';
+export * from './lib/compare-details.routes';
+export * from './lib/compare-details.utils';

@@ -1,0 +1,953 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "tsBuildInfoFile": "dist/tsconfig.app.tsbuildinfo",
+    "jsx": "react-jsx",
+    "lib": ["dom"],
+    "types": [
+      "node",
+      "@nx/react/typings/cssmodule.d.ts",
+      "@nx/react/typings/image.d.ts",
+      "vite/client"
+    ],
+    "rootDir": "src"
+  },
+  "exclude": [
+    "out-tsc",
+    "dist",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "src/**/*.spec.tsx",
+    "src/**/*.test.tsx",
+    "src/**/*.spec.js",
+    "src/**/*.test.js",
+    "src/**/*.spec.jsx",
+    "src/**/*.test.jsx",
+    "vite.config.ts",
+    "vite.config.mts",
+    "vitest.config.ts",
+    "vitest.config.mts",
+    "eslint.config.js",
+    "eslint.config.cjs",
+    "eslint.config.mjs"
+  ],
+  "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"],
+  "references": [
+    {
+      "path": "../../packages/shop/shared-ui/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-support-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-search-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-products/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-product-detail/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-wizard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-summary/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-settings/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-overview/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-insights/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-history/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-editor/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-details/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/feature-account-dashboard/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shop/data/tsconfig.lib.json"
+    },
+    {
+      "path": "../../packages/shared/models/tsconfig.lib.json"
+    }
+  ]
+}

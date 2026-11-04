@@ -1,0 +1,10 @@
+export { ProfileInsightsPage } from './lib/profile-insights-page';
+export { ProfileInsightsSummary } from './lib/profile-insights-summary';
+export { ProfileInsightsHeader } from './lib/profile-insights-header';
+export { ProfileInsightsPanel } from './lib/profile-insights-panel';
+export { ProfileInsightsTable } from './lib/profile-insights-table';
+export { ProfileInsightsFilters } from './lib/profile-insights-filters';
+export { useProfileInsights } from './lib/use-profile-insights';
+export * from './lib/profile-insights.model';
+export * from './lib/profile-insights.routes';
+export * from './lib/profile-insights.utils';

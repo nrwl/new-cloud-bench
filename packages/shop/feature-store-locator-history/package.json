@@ -1,0 +1,34 @@
+{
+  "name": "@org/shop-feature-store-locator-history",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:store-locator"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-feedback-banner": "*",
+    "@org/shop-ui-inputs-tile": "*",
+    "@org/shop-ui-layout-panel": "*",
+    "@org/shop-ui-charts-banner": "*",
+    "@org/shop-ui-media-header": "*",
+    "@org/shop-util-async-address": "*",
+    "@org/shop-util-storage-code": "*",
+    "@org/shop-util-storage-percent": "*",
+    "@org/shop-feature-orders-history": "*"
+  }
+}

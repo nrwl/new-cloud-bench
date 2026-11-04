@@ -1,0 +1,10 @@
+export { PaymentsInsightsPage } from './lib/payments-insights-page';
+export { PaymentsInsightsSummary } from './lib/payments-insights-summary';
+export { PaymentsInsightsHeader } from './lib/payments-insights-header';
+export { PaymentsInsightsPanel } from './lib/payments-insights-panel';
+export { PaymentsInsightsTable } from './lib/payments-insights-table';
+export { PaymentsInsightsFilters } from './lib/payments-insights-filters';
+export { usePaymentsInsights } from './lib/use-payments-insights';
+export * from './lib/payments-insights.model';
+export * from './lib/payments-insights.routes';
+export * from './lib/payments-insights.utils';

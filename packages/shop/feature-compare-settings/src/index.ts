@@ -1,0 +1,10 @@
+export { CompareSettingsPage } from './lib/compare-settings-page';
+export { CompareSettingsSummary } from './lib/compare-settings-summary';
+export { CompareSettingsHeader } from './lib/compare-settings-header';
+export { CompareSettingsPanel } from './lib/compare-settings-panel';
+export { CompareSettingsTable } from './lib/compare-settings-table';
+export { CompareSettingsFilters } from './lib/compare-settings-filters';
+export { useCompareSettings } from './lib/use-compare-settings';
+export * from './lib/compare-settings.model';
+export * from './lib/compare-settings.routes';
+export * from './lib/compare-settings.utils';

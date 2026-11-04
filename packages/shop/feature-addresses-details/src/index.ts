@@ -1,0 +1,10 @@
+export { AddressesDetailsPage } from './lib/addresses-details-page';
+export { AddressesDetailsSummary } from './lib/addresses-details-summary';
+export { AddressesDetailsHeader } from './lib/addresses-details-header';
+export { AddressesDetailsPanel } from './lib/addresses-details-panel';
+export { AddressesDetailsTable } from './lib/addresses-details-table';
+export { AddressesDetailsFilters } from './lib/addresses-details-filters';
+export { useAddressesDetails } from './lib/use-addresses-details';
+export * from './lib/addresses-details.model';
+export * from './lib/addresses-details.routes';
+export * from './lib/addresses-details.utils';

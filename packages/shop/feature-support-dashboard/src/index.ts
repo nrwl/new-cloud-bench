@@ -1,0 +1,10 @@
+export { SupportDashboardPage } from './lib/support-dashboard-page';
+export { SupportDashboardSummary } from './lib/support-dashboard-summary';
+export { SupportDashboardHeader } from './lib/support-dashboard-header';
+export { SupportDashboardPanel } from './lib/support-dashboard-panel';
+export { SupportDashboardTable } from './lib/support-dashboard-table';
+export { SupportDashboardFilters } from './lib/support-dashboard-filters';
+export { useSupportDashboard } from './lib/use-support-dashboard';
+export * from './lib/support-dashboard.model';
+export * from './lib/support-dashboard.routes';
+export * from './lib/support-dashboard.utils';

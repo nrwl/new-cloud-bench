@@ -1,0 +1,32 @@
+{
+  "name": "@org/shop-feature-notifications-editor",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:notifications"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-layout-chip": "*",
+    "@org/shop-ui-charts-toolbar": "*",
+    "@org/shop-ui-feedback-chip": "*",
+    "@org/shop-util-i18n-phone": "*",
+    "@org/shop-util-format-address": "*",
+    "@org/shop-util-async-number": "*",
+    "@org/shop-feature-search-details": "*"
+  }
+}

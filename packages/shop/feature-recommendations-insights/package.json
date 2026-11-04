@@ -1,0 +1,30 @@
+{
+  "name": "@org/shop-feature-recommendations-insights",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:recommendations"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-navigation-stat": "*",
+    "@org/shop-ui-core-tile": "*",
+    "@org/shop-ui-commerce-panel": "*",
+    "@org/shop-util-math-name": "*",
+    "@org/shop-util-storage-slug": "*"
+  }
+}

@@ -1,0 +1,10 @@
+export { PaymentsDetailsPage } from './lib/payments-details-page';
+export { PaymentsDetailsSummary } from './lib/payments-details-summary';
+export { PaymentsDetailsHeader } from './lib/payments-details-header';
+export { PaymentsDetailsPanel } from './lib/payments-details-panel';
+export { PaymentsDetailsTable } from './lib/payments-details-table';
+export { PaymentsDetailsFilters } from './lib/payments-details-filters';
+export { usePaymentsDetails } from './lib/use-payments-details';
+export * from './lib/payments-details.model';
+export * from './lib/payments-details.routes';
+export * from './lib/payments-details.utils';

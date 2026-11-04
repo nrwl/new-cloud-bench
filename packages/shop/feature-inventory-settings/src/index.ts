@@ -1,0 +1,10 @@
+export { InventorySettingsPage } from './lib/inventory-settings-page';
+export { InventorySettingsSummary } from './lib/inventory-settings-summary';
+export { InventorySettingsHeader } from './lib/inventory-settings-header';
+export { InventorySettingsPanel } from './lib/inventory-settings-panel';
+export { InventorySettingsTable } from './lib/inventory-settings-table';
+export { InventorySettingsFilters } from './lib/inventory-settings-filters';
+export { useInventorySettings } from './lib/use-inventory-settings';
+export * from './lib/inventory-settings.model';
+export * from './lib/inventory-settings.routes';
+export * from './lib/inventory-settings.utils';

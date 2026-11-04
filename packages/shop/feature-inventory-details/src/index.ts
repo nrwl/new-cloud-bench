@@ -1,0 +1,10 @@
+export { InventoryDetailsPage } from './lib/inventory-details-page';
+export { InventoryDetailsSummary } from './lib/inventory-details-summary';
+export { InventoryDetailsHeader } from './lib/inventory-details-header';
+export { InventoryDetailsPanel } from './lib/inventory-details-panel';
+export { InventoryDetailsTable } from './lib/inventory-details-table';
+export { InventoryDetailsFilters } from './lib/inventory-details-filters';
+export { useInventoryDetails } from './lib/use-inventory-details';
+export * from './lib/inventory-details.model';
+export * from './lib/inventory-details.routes';
+export * from './lib/inventory-details.utils';

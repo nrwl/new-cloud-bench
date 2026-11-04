@@ -1,0 +1,10 @@
+export { FeedbackInsightsPage } from './lib/feedback-insights-page';
+export { FeedbackInsightsSummary } from './lib/feedback-insights-summary';
+export { FeedbackInsightsHeader } from './lib/feedback-insights-header';
+export { FeedbackInsightsPanel } from './lib/feedback-insights-panel';
+export { FeedbackInsightsTable } from './lib/feedback-insights-table';
+export { FeedbackInsightsFilters } from './lib/feedback-insights-filters';
+export { useFeedbackInsights } from './lib/use-feedback-insights';
+export * from './lib/feedback-insights.model';
+export * from './lib/feedback-insights.routes';
+export * from './lib/feedback-insights.utils';

@@ -1,0 +1,10 @@
+export { CatalogDashboardPage } from './lib/catalog-dashboard-page';
+export { CatalogDashboardSummary } from './lib/catalog-dashboard-summary';
+export { CatalogDashboardHeader } from './lib/catalog-dashboard-header';
+export { CatalogDashboardPanel } from './lib/catalog-dashboard-panel';
+export { CatalogDashboardTable } from './lib/catalog-dashboard-table';
+export { CatalogDashboardFilters } from './lib/catalog-dashboard-filters';
+export { useCatalogDashboard } from './lib/use-catalog-dashboard';
+export * from './lib/catalog-dashboard.model';
+export * from './lib/catalog-dashboard.routes';
+export * from './lib/catalog-dashboard.utils';

@@ -1,0 +1,32 @@
+{
+  "name": "@org/shop-feature-promotions-overview",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:promotions"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-marketing-banner": "*",
+    "@org/shop-ui-media-banner": "*",
+    "@org/shop-ui-media-stat": "*",
+    "@org/shop-ui-core-list": "*",
+    "@org/shop-util-validate-text": "*",
+    "@org/shop-util-collection-phone": "*",
+    "@org/shop-util-validate-code": "*"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@org/shop-feature-inventory-details",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:inventory"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-forms-tile": "*",
+    "@org/shop-ui-core-list": "*",
+    "@org/shop-ui-forms-badge": "*",
+    "@org/shop-ui-forms-banner": "*",
+    "@org/shop-util-validate-date": "*",
+    "@org/shop-feature-reviews-history": "*"
+  }
+}

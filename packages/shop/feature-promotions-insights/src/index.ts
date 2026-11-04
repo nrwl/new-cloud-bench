@@ -1,0 +1,10 @@
+export { PromotionsInsightsPage } from './lib/promotions-insights-page';
+export { PromotionsInsightsSummary } from './lib/promotions-insights-summary';
+export { PromotionsInsightsHeader } from './lib/promotions-insights-header';
+export { PromotionsInsightsPanel } from './lib/promotions-insights-panel';
+export { PromotionsInsightsTable } from './lib/promotions-insights-table';
+export { PromotionsInsightsFilters } from './lib/promotions-insights-filters';
+export { usePromotionsInsights } from './lib/use-promotions-insights';
+export * from './lib/promotions-insights.model';
+export * from './lib/promotions-insights.routes';
+export * from './lib/promotions-insights.utils';

@@ -1,0 +1,10 @@
+export { RecommendationsListPage } from './lib/recommendations-list-page';
+export { RecommendationsListSummary } from './lib/recommendations-list-summary';
+export { RecommendationsListHeader } from './lib/recommendations-list-header';
+export { RecommendationsListPanel } from './lib/recommendations-list-panel';
+export { RecommendationsListTable } from './lib/recommendations-list-table';
+export { RecommendationsListFilters } from './lib/recommendations-list-filters';
+export { useRecommendationsList } from './lib/use-recommendations-list';
+export * from './lib/recommendations-list.model';
+export * from './lib/recommendations-list.routes';
+export * from './lib/recommendations-list.utils';

@@ -1,0 +1,32 @@
+{
+  "name": "@org/shop-feature-notifications-dashboard",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:notifications"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-typography-chip": "*",
+    "@org/shop-ui-overlay-toolbar": "*",
+    "@org/shop-ui-navigation-panel": "*",
+    "@org/shop-ui-commerce-badge": "*",
+    "@org/shop-ui-typography-card": "*",
+    "@org/shop-util-validate-code": "*",
+    "@org/shop-util-validate-percent": "*"
+  }
+}

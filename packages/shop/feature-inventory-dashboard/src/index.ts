@@ -1,0 +1,10 @@
+export { InventoryDashboardPage } from './lib/inventory-dashboard-page';
+export { InventoryDashboardSummary } from './lib/inventory-dashboard-summary';
+export { InventoryDashboardHeader } from './lib/inventory-dashboard-header';
+export { InventoryDashboardPanel } from './lib/inventory-dashboard-panel';
+export { InventoryDashboardTable } from './lib/inventory-dashboard-table';
+export { InventoryDashboardFilters } from './lib/inventory-dashboard-filters';
+export { useInventoryDashboard } from './lib/use-inventory-dashboard';
+export * from './lib/inventory-dashboard.model';
+export * from './lib/inventory-dashboard.routes';
+export * from './lib/inventory-dashboard.utils';

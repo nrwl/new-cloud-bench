@@ -1,0 +1,10 @@
+export { NotificationsDetailsPage } from './lib/notifications-details-page';
+export { NotificationsDetailsSummary } from './lib/notifications-details-summary';
+export { NotificationsDetailsHeader } from './lib/notifications-details-header';
+export { NotificationsDetailsPanel } from './lib/notifications-details-panel';
+export { NotificationsDetailsTable } from './lib/notifications-details-table';
+export { NotificationsDetailsFilters } from './lib/notifications-details-filters';
+export { useNotificationsDetails } from './lib/use-notifications-details';
+export * from './lib/notifications-details.model';
+export * from './lib/notifications-details.routes';
+export * from './lib/notifications-details.utils';

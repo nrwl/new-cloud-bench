@@ -1,0 +1,10 @@
+export { PromotionsDashboardPage } from './lib/promotions-dashboard-page';
+export { PromotionsDashboardSummary } from './lib/promotions-dashboard-summary';
+export { PromotionsDashboardHeader } from './lib/promotions-dashboard-header';
+export { PromotionsDashboardPanel } from './lib/promotions-dashboard-panel';
+export { PromotionsDashboardTable } from './lib/promotions-dashboard-table';
+export { PromotionsDashboardFilters } from './lib/promotions-dashboard-filters';
+export { usePromotionsDashboard } from './lib/use-promotions-dashboard';
+export * from './lib/promotions-dashboard.model';
+export * from './lib/promotions-dashboard.routes';
+export * from './lib/promotions-dashboard.utils';

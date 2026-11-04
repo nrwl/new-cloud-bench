@@ -1,0 +1,10 @@
+export { CatalogSummaryPage } from './lib/catalog-summary-page';
+export { CatalogSummarySummary } from './lib/catalog-summary-summary';
+export { CatalogSummaryHeader } from './lib/catalog-summary-header';
+export { CatalogSummaryPanel } from './lib/catalog-summary-panel';
+export { CatalogSummaryTable } from './lib/catalog-summary-table';
+export { CatalogSummaryFilters } from './lib/catalog-summary-filters';
+export { useCatalogSummary } from './lib/use-catalog-summary';
+export * from './lib/catalog-summary.model';
+export * from './lib/catalog-summary.routes';
+export * from './lib/catalog-summary.utils';

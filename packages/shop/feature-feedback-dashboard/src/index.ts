@@ -1,0 +1,10 @@
+export { FeedbackDashboardPage } from './lib/feedback-dashboard-page';
+export { FeedbackDashboardSummary } from './lib/feedback-dashboard-summary';
+export { FeedbackDashboardHeader } from './lib/feedback-dashboard-header';
+export { FeedbackDashboardPanel } from './lib/feedback-dashboard-panel';
+export { FeedbackDashboardTable } from './lib/feedback-dashboard-table';
+export { FeedbackDashboardFilters } from './lib/feedback-dashboard-filters';
+export { useFeedbackDashboard } from './lib/use-feedback-dashboard';
+export * from './lib/feedback-dashboard.model';
+export * from './lib/feedback-dashboard.routes';
+export * from './lib/feedback-dashboard.utils';

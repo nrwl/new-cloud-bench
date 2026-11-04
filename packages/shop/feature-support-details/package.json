@@ -1,0 +1,32 @@
+{
+  "name": "@org/shop-feature-support-details",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:support"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-media-list": "*",
+    "@org/shop-ui-layout-list": "*",
+    "@org/shop-ui-feedback-list": "*",
+    "@org/shop-ui-inputs-toolbar": "*",
+    "@org/shop-util-collection-code": "*",
+    "@org/shop-util-storage-percent": "*",
+    "@org/shop-util-validate-text": "*"
+  }
+}

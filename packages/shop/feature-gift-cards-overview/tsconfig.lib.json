@@ -1,0 +1,63 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "types": [
+      "node",
+      "@nx/react/typings/cssmodule.d.ts",
+      "@nx/react/typings/image.d.ts"
+    ],
+    "lib": ["es2022", "dom"],
+    "rootDir": "src",
+    "jsx": "react-jsx",
+    "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo"
+  },
+  "exclude": [
+    "out-tsc",
+    "dist",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/*.spec.tsx",
+    "**/*.test.tsx",
+    "vite.config.ts",
+    "vite.config.mts",
+    "vitest.config.ts",
+    "vitest.config.mts",
+    "eslint.config.js",
+    "eslint.config.cjs",
+    "eslint.config.mjs"
+  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "references": [
+    {
+      "path": "../util-validate-phone/tsconfig.lib.json"
+    },
+    {
+      "path": "../util-validate-code/tsconfig.lib.json"
+    },
+    {
+      "path": "../util-i18n-name/tsconfig.lib.json"
+    },
+    {
+      "path": "../ui-typography-toolbar/tsconfig.lib.json"
+    },
+    {
+      "path": "../ui-marketing-badge/tsconfig.lib.json"
+    },
+    {
+      "path": "../ui-layout-panel/tsconfig.lib.json"
+    },
+    {
+      "path": "../ui-media-list/tsconfig.lib.json"
+    },
+    {
+      "path": "../ui-typography-chip/tsconfig.lib.json"
+    },
+    {
+      "path": "../shared-ui/tsconfig.lib.json"
+    },
+    {
+      "path": "../../shared/models/tsconfig.lib.json"
+    }
+  ]
+}

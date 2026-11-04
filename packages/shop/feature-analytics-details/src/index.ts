@@ -1,0 +1,10 @@
+export { AnalyticsDetailsPage } from './lib/analytics-details-page';
+export { AnalyticsDetailsSummary } from './lib/analytics-details-summary';
+export { AnalyticsDetailsHeader } from './lib/analytics-details-header';
+export { AnalyticsDetailsPanel } from './lib/analytics-details-panel';
+export { AnalyticsDetailsTable } from './lib/analytics-details-table';
+export { AnalyticsDetailsFilters } from './lib/analytics-details-filters';
+export { useAnalyticsDetails } from './lib/use-analytics-details';
+export * from './lib/analytics-details.model';
+export * from './lib/analytics-details.routes';
+export * from './lib/analytics-details.utils';

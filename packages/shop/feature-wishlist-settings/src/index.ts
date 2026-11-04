@@ -1,0 +1,10 @@
+export { WishlistSettingsPage } from './lib/wishlist-settings-page';
+export { WishlistSettingsSummary } from './lib/wishlist-settings-summary';
+export { WishlistSettingsHeader } from './lib/wishlist-settings-header';
+export { WishlistSettingsPanel } from './lib/wishlist-settings-panel';
+export { WishlistSettingsTable } from './lib/wishlist-settings-table';
+export { WishlistSettingsFilters } from './lib/wishlist-settings-filters';
+export { useWishlistSettings } from './lib/use-wishlist-settings';
+export * from './lib/wishlist-settings.model';
+export * from './lib/wishlist-settings.routes';
+export * from './lib/wishlist-settings.utils';

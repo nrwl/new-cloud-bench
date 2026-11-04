@@ -1,0 +1,1537 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/api"
+    },
+    {
+      "path": "./apps/shop-e2e"
+    },
+    {
+      "path": "./apps/shop"
+    },
+    {
+      "path": "./packages/api/products"
+    },
+    {
+      "path": "./packages/shared/models"
+    },
+    {
+      "path": "./packages/shop/data"
+    },
+    {
+      "path": "./packages/shop/feature-product-detail"
+    },
+    {
+      "path": "./packages/shop/feature-products"
+    },
+    {
+      "path": "./packages/shop/shared-ui"
+    },
+    {
+      "path": "./packages/shared/test-utils"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-insights"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-overview"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-settings"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-details"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-history"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-summary"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-insights"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-overview"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-settings"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-editor"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-insights"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-overview"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-settings"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-insights"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-overview"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-settings"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-details"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-history"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-summary"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-details"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-history"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-summary"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-details"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-history"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-summary"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-editor"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-recommendations-list"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-editor"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-editor"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-insights"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-overview"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-settings"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-insights"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-overview"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-settings"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-insights"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-overview"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-settings"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-insights"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-overview"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-settings"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-details"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-history"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-summary"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-insights"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-overview"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-settings"
+    },
+    {
+      "path": "./packages/shop/feature-notifications-list"
+    },
+    {
+      "path": "./packages/shop/feature-payments-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-insights"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-overview"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-settings"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-details"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-history"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-summary"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-store-locator-list"
+    },
+    {
+      "path": "./packages/shop/feature-subscriptions-list"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-account-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-details"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-history"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-summary"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-details"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-history"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-summary"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-insights"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-overview"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-settings"
+    },
+    {
+      "path": "./packages/shop/feature-compare-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-insights"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-overview"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-settings"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-editor"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-details"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-history"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-summary"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-payments-insights"
+    },
+    {
+      "path": "./packages/shop/feature-payments-overview"
+    },
+    {
+      "path": "./packages/shop/feature-payments-settings"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-details"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-history"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-summary"
+    },
+    {
+      "path": "./packages/shop/feature-profile-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-editor"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-returns-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-insights"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-overview"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-settings"
+    },
+    {
+      "path": "./packages/shop/feature-support-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-insights"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-overview"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-settings"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-insights"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-overview"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-settings"
+    },
+    {
+      "path": "./packages/shop/feature-account-insights"
+    },
+    {
+      "path": "./packages/shop/feature-account-overview"
+    },
+    {
+      "path": "./packages/shop/feature-account-settings"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-editor"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-editor"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-insights"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-overview"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-settings"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-insights"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-overview"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-settings"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-details"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-history"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-summary"
+    },
+    {
+      "path": "./packages/shop/feature-compare-insights"
+    },
+    {
+      "path": "./packages/shop/feature-compare-overview"
+    },
+    {
+      "path": "./packages/shop/feature-compare-settings"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-details"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-history"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-summary"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-editor"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-insights"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-overview"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-settings"
+    },
+    {
+      "path": "./packages/shop/feature-orders-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-payments-details"
+    },
+    {
+      "path": "./packages/shop/feature-payments-history"
+    },
+    {
+      "path": "./packages/shop/feature-payments-summary"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-editor"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-profile-insights"
+    },
+    {
+      "path": "./packages/shop/feature-profile-overview"
+    },
+    {
+      "path": "./packages/shop/feature-profile-settings"
+    },
+    {
+      "path": "./packages/shop/feature-returns-insights"
+    },
+    {
+      "path": "./packages/shop/feature-returns-overview"
+    },
+    {
+      "path": "./packages/shop/feature-returns-settings"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-insights"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-overview"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-settings"
+    },
+    {
+      "path": "./packages/shop/feature-search-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-details"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-history"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-summary"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-support-insights"
+    },
+    {
+      "path": "./packages/shop/feature-support-overview"
+    },
+    {
+      "path": "./packages/shop/feature-support-settings"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-details"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-history"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-summary"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-details"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-history"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-summary"
+    },
+    {
+      "path": "./packages/shop/util-collection-currency"
+    },
+    {
+      "path": "./packages/shop/feature-account-details"
+    },
+    {
+      "path": "./packages/shop/feature-account-history"
+    },
+    {
+      "path": "./packages/shop/feature-account-summary"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-details"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-history"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-summary"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-details"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-history"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-summary"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-editor"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-compare-details"
+    },
+    {
+      "path": "./packages/shop/feature-compare-history"
+    },
+    {
+      "path": "./packages/shop/feature-compare-summary"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-editor"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-gift-cards-list"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-details"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-history"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-summary"
+    },
+    {
+      "path": "./packages/shop/feature-orders-insights"
+    },
+    {
+      "path": "./packages/shop/feature-orders-overview"
+    },
+    {
+      "path": "./packages/shop/feature-orders-settings"
+    },
+    {
+      "path": "./packages/shop/feature-payments-editor"
+    },
+    {
+      "path": "./packages/shop/feature-payments-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-profile-details"
+    },
+    {
+      "path": "./packages/shop/feature-profile-history"
+    },
+    {
+      "path": "./packages/shop/feature-profile-summary"
+    },
+    {
+      "path": "./packages/shop/feature-promotions-list"
+    },
+    {
+      "path": "./packages/shop/feature-returns-details"
+    },
+    {
+      "path": "./packages/shop/feature-returns-history"
+    },
+    {
+      "path": "./packages/shop/feature-returns-summary"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-details"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-history"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-summary"
+    },
+    {
+      "path": "./packages/shop/feature-search-insights"
+    },
+    {
+      "path": "./packages/shop/feature-search-overview"
+    },
+    {
+      "path": "./packages/shop/feature-search-settings"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-editor"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-insights"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-overview"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-settings"
+    },
+    {
+      "path": "./packages/shop/feature-support-details"
+    },
+    {
+      "path": "./packages/shop/feature-support-history"
+    },
+    {
+      "path": "./packages/shop/feature-support-summary"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-editor"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-editor"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-wizard"
+    },
+    {
+      "path": "./packages/shop/util-collection-address"
+    },
+    {
+      "path": "./packages/shop/util-collection-percent"
+    },
+    {
+      "path": "./packages/shop/feature-account-editor"
+    },
+    {
+      "path": "./packages/shop/feature-account-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-addresses-list"
+    },
+    {
+      "path": "./packages/shop/feature-analytics-list"
+    },
+    {
+      "path": "./packages/shop/feature-auth-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-editor"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-cart-dashboard"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-editor"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-compare-editor"
+    },
+    {
+      "path": "./packages/shop/feature-compare-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-inventory-list"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-editor"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-orders-details"
+    },
+    {
+      "path": "./packages/shop/feature-orders-history"
+    },
+    {
+      "path": "./packages/shop/feature-orders-summary"
+    },
+    {
+      "path": "./packages/shop/feature-preorders-list"
+    },
+    {
+      "path": "./packages/shop/feature-profile-editor"
+    },
+    {
+      "path": "./packages/shop/feature-profile-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-returns-editor"
+    },
+    {
+      "path": "./packages/shop/feature-returns-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-editor"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-search-details"
+    },
+    {
+      "path": "./packages/shop/feature-search-history"
+    },
+    {
+      "path": "./packages/shop/feature-search-summary"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-details"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-history"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-summary"
+    },
+    {
+      "path": "./packages/shop/feature-support-editor"
+    },
+    {
+      "path": "./packages/shop/feature-support-wizard"
+    },
+    {
+      "path": "./packages/shop/util-collection-number"
+    },
+    {
+      "path": "./packages/shop/util-validate-currency"
+    },
+    {
+      "path": "./packages/shop/feature-auth-insights"
+    },
+    {
+      "path": "./packages/shop/feature-auth-overview"
+    },
+    {
+      "path": "./packages/shop/feature-auth-settings"
+    },
+    {
+      "path": "./packages/shop/feature-cart-insights"
+    },
+    {
+      "path": "./packages/shop/feature-cart-overview"
+    },
+    {
+      "path": "./packages/shop/feature-cart-settings"
+    },
+    {
+      "path": "./packages/shop/feature-checkout-list"
+    },
+    {
+      "path": "./packages/shop/feature-feedback-list"
+    },
+    {
+      "path": "./packages/shop/feature-orders-editor"
+    },
+    {
+      "path": "./packages/shop/feature-orders-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-payments-list"
+    },
+    {
+      "path": "./packages/shop/feature-search-editor"
+    },
+    {
+      "path": "./packages/shop/feature-search-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-shipping-list"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-editor"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-tracking-list"
+    },
+    {
+      "path": "./packages/shop/feature-wishlist-list"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-typography-toolbar"
+    },
+    {
+      "path": "./packages/shop/util-collection-phone"
+    },
+    {
+      "path": "./packages/shop/util-storage-currency"
+    },
+    {
+      "path": "./packages/shop/util-validate-address"
+    },
+    {
+      "path": "./packages/shop/util-validate-percent"
+    },
+    {
+      "path": "./packages/shop/feature-account-list"
+    },
+    {
+      "path": "./packages/shop/feature-auth-details"
+    },
+    {
+      "path": "./packages/shop/feature-auth-history"
+    },
+    {
+      "path": "./packages/shop/feature-auth-summary"
+    },
+    {
+      "path": "./packages/shop/feature-bundles-list"
+    },
+    {
+      "path": "./packages/shop/feature-cart-details"
+    },
+    {
+      "path": "./packages/shop/feature-cart-history"
+    },
+    {
+      "path": "./packages/shop/feature-cart-summary"
+    },
+    {
+      "path": "./packages/shop/feature-catalog-list"
+    },
+    {
+      "path": "./packages/shop/feature-compare-list"
+    },
+    {
+      "path": "./packages/shop/feature-loyalty-list"
+    },
+    {
+      "path": "./packages/shop/feature-profile-list"
+    },
+    {
+      "path": "./packages/shop/feature-returns-list"
+    },
+    {
+      "path": "./packages/shop/feature-reviews-list"
+    },
+    {
+      "path": "./packages/shop/feature-support-list"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-banner"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-header"
+    },
+    {
+      "path": "./packages/shop/ui-typography-banner"
+    },
+    {
+      "path": "./packages/shop/ui-typography-header"
+    },
+    {
+      "path": "./packages/shop/util-collection-code"
+    },
+    {
+      "path": "./packages/shop/util-collection-date"
+    },
+    {
+      "path": "./packages/shop/util-collection-name"
+    },
+    {
+      "path": "./packages/shop/util-collection-slug"
+    },
+    {
+      "path": "./packages/shop/util-collection-text"
+    },
+    {
+      "path": "./packages/shop/util-format-currency"
+    },
+    {
+      "path": "./packages/shop/util-storage-address"
+    },
+    {
+      "path": "./packages/shop/util-storage-percent"
+    },
+    {
+      "path": "./packages/shop/util-validate-number"
+    },
+    {
+      "path": "./packages/shop/feature-auth-editor"
+    },
+    {
+      "path": "./packages/shop/feature-auth-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-cart-editor"
+    },
+    {
+      "path": "./packages/shop/feature-cart-wizard"
+    },
+    {
+      "path": "./packages/shop/feature-orders-list"
+    },
+    {
+      "path": "./packages/shop/feature-search-list"
+    },
+    {
+      "path": "./packages/shop/feature-sizing-list"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-banner"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-header"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-badge"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-panel"
+    },
+    {
+      "path": "./packages/shop/ui-typography-badge"
+    },
+    {
+      "path": "./packages/shop/ui-typography-panel"
+    },
+    {
+      "path": "./packages/shop/util-async-currency"
+    },
+    {
+      "path": "./packages/shop/util-format-address"
+    },
+    {
+      "path": "./packages/shop/util-format-percent"
+    },
+    {
+      "path": "./packages/shop/util-storage-number"
+    },
+    {
+      "path": "./packages/shop/util-validate-phone"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-banner"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-header"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-banner"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-header"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-badge"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-panel"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-card"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-chip"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-list"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-stat"
+    },
+    {
+      "path": "./packages/shop/ui-navigation-tile"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-typography-card"
+    },
+    {
+      "path": "./packages/shop/ui-typography-chip"
+    },
+    {
+      "path": "./packages/shop/ui-typography-list"
+    },
+    {
+      "path": "./packages/shop/ui-typography-stat"
+    },
+    {
+      "path": "./packages/shop/ui-typography-tile"
+    },
+    {
+      "path": "./packages/shop/util-async-address"
+    },
+    {
+      "path": "./packages/shop/util-async-percent"
+    },
+    {
+      "path": "./packages/shop/util-format-number"
+    },
+    {
+      "path": "./packages/shop/util-i18n-currency"
+    },
+    {
+      "path": "./packages/shop/util-math-currency"
+    },
+    {
+      "path": "./packages/shop/util-storage-phone"
+    },
+    {
+      "path": "./packages/shop/util-validate-code"
+    },
+    {
+      "path": "./packages/shop/util-validate-date"
+    },
+    {
+      "path": "./packages/shop/util-validate-name"
+    },
+    {
+      "path": "./packages/shop/util-validate-slug"
+    },
+    {
+      "path": "./packages/shop/util-validate-text"
+    },
+    {
+      "path": "./packages/shop/feature-auth-list"
+    },
+    {
+      "path": "./packages/shop/feature-cart-list"
+    },
+    {
+      "path": "./packages/shop/ui-charts-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-badge"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-panel"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-badge"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-panel"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-layout-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-card"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-chip"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-list"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-stat"
+    },
+    {
+      "path": "./packages/shop/ui-marketing-tile"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-banner"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-header"
+    },
+    {
+      "path": "./packages/shop/util-async-number"
+    },
+    {
+      "path": "./packages/shop/util-format-phone"
+    },
+    {
+      "path": "./packages/shop/util-i18n-address"
+    },
+    {
+      "path": "./packages/shop/util-i18n-percent"
+    },
+    {
+      "path": "./packages/shop/util-math-address"
+    },
+    {
+      "path": "./packages/shop/util-math-percent"
+    },
+    {
+      "path": "./packages/shop/util-storage-code"
+    },
+    {
+      "path": "./packages/shop/util-storage-date"
+    },
+    {
+      "path": "./packages/shop/util-storage-name"
+    },
+    {
+      "path": "./packages/shop/util-storage-slug"
+    },
+    {
+      "path": "./packages/shop/util-storage-text"
+    },
+    {
+      "path": "./packages/shop/ui-charts-banner"
+    },
+    {
+      "path": "./packages/shop/ui-charts-header"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-card"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-chip"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-list"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-stat"
+    },
+    {
+      "path": "./packages/shop/ui-commerce-tile"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-card"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-chip"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-list"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-stat"
+    },
+    {
+      "path": "./packages/shop/ui-feedback-tile"
+    },
+    {
+      "path": "./packages/shop/ui-forms-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-banner"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-header"
+    },
+    {
+      "path": "./packages/shop/ui-layout-banner"
+    },
+    {
+      "path": "./packages/shop/ui-layout-header"
+    },
+    {
+      "path": "./packages/shop/ui-media-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-badge"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-panel"
+    },
+    {
+      "path": "./packages/shop/util-async-phone"
+    },
+    {
+      "path": "./packages/shop/util-format-code"
+    },
+    {
+      "path": "./packages/shop/util-format-date"
+    },
+    {
+      "path": "./packages/shop/util-format-name"
+    },
+    {
+      "path": "./packages/shop/util-format-slug"
+    },
+    {
+      "path": "./packages/shop/util-format-text"
+    },
+    {
+      "path": "./packages/shop/util-i18n-number"
+    },
+    {
+      "path": "./packages/shop/util-math-number"
+    },
+    {
+      "path": "./packages/shop/ui-charts-badge"
+    },
+    {
+      "path": "./packages/shop/ui-charts-panel"
+    },
+    {
+      "path": "./packages/shop/ui-core-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-data-toolbar"
+    },
+    {
+      "path": "./packages/shop/ui-forms-banner"
+    },
+    {
+      "path": "./packages/shop/ui-forms-header"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-badge"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-panel"
+    },
+    {
+      "path": "./packages/shop/ui-layout-badge"
+    },
+    {
+      "path": "./packages/shop/ui-layout-panel"
+    },
+    {
+      "path": "./packages/shop/ui-media-banner"
+    },
+    {
+      "path": "./packages/shop/ui-media-header"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-card"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-chip"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-list"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-stat"
+    },
+    {
+      "path": "./packages/shop/ui-overlay-tile"
+    },
+    {
+      "path": "./packages/shop/util-async-code"
+    },
+    {
+      "path": "./packages/shop/util-async-date"
+    },
+    {
+      "path": "./packages/shop/util-async-name"
+    },
+    {
+      "path": "./packages/shop/util-async-slug"
+    },
+    {
+      "path": "./packages/shop/util-async-text"
+    },
+    {
+      "path": "./packages/shop/util-i18n-phone"
+    },
+    {
+      "path": "./packages/shop/util-math-phone"
+    },
+    {
+      "path": "./packages/shop/ui-charts-card"
+    },
+    {
+      "path": "./packages/shop/ui-charts-chip"
+    },
+    {
+      "path": "./packages/shop/ui-charts-list"
+    },
+    {
+      "path": "./packages/shop/ui-charts-stat"
+    },
+    {
+      "path": "./packages/shop/ui-charts-tile"
+    },
+    {
+      "path": "./packages/shop/ui-core-banner"
+    },
+    {
+      "path": "./packages/shop/ui-core-header"
+    },
+    {
+      "path": "./packages/shop/ui-data-banner"
+    },
+    {
+      "path": "./packages/shop/ui-data-header"
+    },
+    {
+      "path": "./packages/shop/ui-forms-badge"
+    },
+    {
+      "path": "./packages/shop/ui-forms-panel"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-card"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-chip"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-list"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-stat"
+    },
+    {
+      "path": "./packages/shop/ui-inputs-tile"
+    },
+    {
+      "path": "./packages/shop/ui-layout-card"
+    },
+    {
+      "path": "./packages/shop/ui-layout-chip"
+    },
+    {
+      "path": "./packages/shop/ui-layout-list"
+    },
+    {
+      "path": "./packages/shop/ui-layout-stat"
+    },
+    {
+      "path": "./packages/shop/ui-layout-tile"
+    },
+    {
+      "path": "./packages/shop/ui-media-badge"
+    },
+    {
+      "path": "./packages/shop/ui-media-panel"
+    },
+    {
+      "path": "./packages/shop/util-i18n-code"
+    },
+    {
+      "path": "./packages/shop/util-i18n-date"
+    },
+    {
+      "path": "./packages/shop/util-i18n-name"
+    },
+    {
+      "path": "./packages/shop/util-i18n-slug"
+    },
+    {
+      "path": "./packages/shop/util-i18n-text"
+    },
+    {
+      "path": "./packages/shop/util-math-code"
+    },
+    {
+      "path": "./packages/shop/util-math-date"
+    },
+    {
+      "path": "./packages/shop/util-math-name"
+    },
+    {
+      "path": "./packages/shop/util-math-slug"
+    },
+    {
+      "path": "./packages/shop/util-math-text"
+    },
+    {
+      "path": "./packages/shop/ui-core-badge"
+    },
+    {
+      "path": "./packages/shop/ui-core-panel"
+    },
+    {
+      "path": "./packages/shop/ui-data-badge"
+    },
+    {
+      "path": "./packages/shop/ui-data-panel"
+    },
+    {
+      "path": "./packages/shop/ui-forms-card"
+    },
+    {
+      "path": "./packages/shop/ui-forms-chip"
+    },
+    {
+      "path": "./packages/shop/ui-forms-list"
+    },
+    {
+      "path": "./packages/shop/ui-forms-stat"
+    },
+    {
+      "path": "./packages/shop/ui-forms-tile"
+    },
+    {
+      "path": "./packages/shop/ui-media-card"
+    },
+    {
+      "path": "./packages/shop/ui-media-chip"
+    },
+    {
+      "path": "./packages/shop/ui-media-list"
+    },
+    {
+      "path": "./packages/shop/ui-media-stat"
+    },
+    {
+      "path": "./packages/shop/ui-media-tile"
+    },
+    {
+      "path": "./packages/shop/ui-core-card"
+    },
+    {
+      "path": "./packages/shop/ui-core-chip"
+    },
+    {
+      "path": "./packages/shop/ui-core-list"
+    },
+    {
+      "path": "./packages/shop/ui-core-stat"
+    },
+    {
+      "path": "./packages/shop/ui-core-tile"
+    },
+    {
+      "path": "./packages/shop/ui-data-card"
+    },
+    {
+      "path": "./packages/shop/ui-data-chip"
+    },
+    {
+      "path": "./packages/shop/ui-data-list"
+    },
+    {
+      "path": "./packages/shop/ui-data-stat"
+    },
+    {
+      "path": "./packages/shop/ui-data-tile"
+    }
+  ]
+}

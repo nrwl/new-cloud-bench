@@ -1,0 +1,10 @@
+export { BundlesDetailsPage } from './lib/bundles-details-page';
+export { BundlesDetailsSummary } from './lib/bundles-details-summary';
+export { BundlesDetailsHeader } from './lib/bundles-details-header';
+export { BundlesDetailsPanel } from './lib/bundles-details-panel';
+export { BundlesDetailsTable } from './lib/bundles-details-table';
+export { BundlesDetailsFilters } from './lib/bundles-details-filters';
+export { useBundlesDetails } from './lib/use-bundles-details';
+export * from './lib/bundles-details.model';
+export * from './lib/bundles-details.routes';
+export * from './lib/bundles-details.utils';

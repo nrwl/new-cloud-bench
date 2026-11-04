@@ -1,0 +1,10 @@
+export { CompareHistoryPage } from './lib/compare-history-page';
+export { CompareHistorySummary } from './lib/compare-history-summary';
+export { CompareHistoryHeader } from './lib/compare-history-header';
+export { CompareHistoryPanel } from './lib/compare-history-panel';
+export { CompareHistoryTable } from './lib/compare-history-table';
+export { CompareHistoryFilters } from './lib/compare-history-filters';
+export { useCompareHistory } from './lib/use-compare-history';
+export * from './lib/compare-history.model';
+export * from './lib/compare-history.routes';
+export * from './lib/compare-history.utils';

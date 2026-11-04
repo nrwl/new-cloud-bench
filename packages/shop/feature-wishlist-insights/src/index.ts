@@ -1,0 +1,10 @@
+export { WishlistInsightsPage } from './lib/wishlist-insights-page';
+export { WishlistInsightsSummary } from './lib/wishlist-insights-summary';
+export { WishlistInsightsHeader } from './lib/wishlist-insights-header';
+export { WishlistInsightsPanel } from './lib/wishlist-insights-panel';
+export { WishlistInsightsTable } from './lib/wishlist-insights-table';
+export { WishlistInsightsFilters } from './lib/wishlist-insights-filters';
+export { useWishlistInsights } from './lib/use-wishlist-insights';
+export * from './lib/wishlist-insights.model';
+export * from './lib/wishlist-insights.routes';
+export * from './lib/wishlist-insights.utils';

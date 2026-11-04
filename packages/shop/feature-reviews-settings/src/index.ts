@@ -1,0 +1,10 @@
+export { ReviewsSettingsPage } from './lib/reviews-settings-page';
+export { ReviewsSettingsSummary } from './lib/reviews-settings-summary';
+export { ReviewsSettingsHeader } from './lib/reviews-settings-header';
+export { ReviewsSettingsPanel } from './lib/reviews-settings-panel';
+export { ReviewsSettingsTable } from './lib/reviews-settings-table';
+export { ReviewsSettingsFilters } from './lib/reviews-settings-filters';
+export { useReviewsSettings } from './lib/use-reviews-settings';
+export * from './lib/reviews-settings.model';
+export * from './lib/reviews-settings.routes';
+export * from './lib/reviews-settings.utils';

@@ -1,0 +1,10 @@
+export { OrdersDetailsPage } from './lib/orders-details-page';
+export { OrdersDetailsSummary } from './lib/orders-details-summary';
+export { OrdersDetailsHeader } from './lib/orders-details-header';
+export { OrdersDetailsPanel } from './lib/orders-details-panel';
+export { OrdersDetailsTable } from './lib/orders-details-table';
+export { OrdersDetailsFilters } from './lib/orders-details-filters';
+export { useOrdersDetails } from './lib/use-orders-details';
+export * from './lib/orders-details.model';
+export * from './lib/orders-details.routes';
+export * from './lib/orders-details.utils';

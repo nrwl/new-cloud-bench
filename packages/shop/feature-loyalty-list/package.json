@@ -1,0 +1,31 @@
+{
+  "name": "@org/shop-feature-loyalty-list",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:loyalty"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-typography-toolbar": "*",
+    "@org/shop-ui-data-stat": "*",
+    "@org/shop-ui-media-badge": "*",
+    "@org/shop-ui-inputs-stat": "*",
+    "@org/shop-util-storage-slug": "*",
+    "@org/shop-feature-account-overview": "*"
+  }
+}

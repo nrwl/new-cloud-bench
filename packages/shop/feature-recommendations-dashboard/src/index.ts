@@ -1,0 +1,10 @@
+export { RecommendationsDashboardPage } from './lib/recommendations-dashboard-page';
+export { RecommendationsDashboardSummary } from './lib/recommendations-dashboard-summary';
+export { RecommendationsDashboardHeader } from './lib/recommendations-dashboard-header';
+export { RecommendationsDashboardPanel } from './lib/recommendations-dashboard-panel';
+export { RecommendationsDashboardTable } from './lib/recommendations-dashboard-table';
+export { RecommendationsDashboardFilters } from './lib/recommendations-dashboard-filters';
+export { useRecommendationsDashboard } from './lib/use-recommendations-dashboard';
+export * from './lib/recommendations-dashboard.model';
+export * from './lib/recommendations-dashboard.routes';
+export * from './lib/recommendations-dashboard.utils';

@@ -1,0 +1,10 @@
+export { ReviewsDashboardPage } from './lib/reviews-dashboard-page';
+export { ReviewsDashboardSummary } from './lib/reviews-dashboard-summary';
+export { ReviewsDashboardHeader } from './lib/reviews-dashboard-header';
+export { ReviewsDashboardPanel } from './lib/reviews-dashboard-panel';
+export { ReviewsDashboardTable } from './lib/reviews-dashboard-table';
+export { ReviewsDashboardFilters } from './lib/reviews-dashboard-filters';
+export { useReviewsDashboard } from './lib/use-reviews-dashboard';
+export * from './lib/reviews-dashboard.model';
+export * from './lib/reviews-dashboard.routes';
+export * from './lib/reviews-dashboard.utils';

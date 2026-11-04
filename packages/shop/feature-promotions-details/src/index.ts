@@ -1,0 +1,10 @@
+export { PromotionsDetailsPage } from './lib/promotions-details-page';
+export { PromotionsDetailsSummary } from './lib/promotions-details-summary';
+export { PromotionsDetailsHeader } from './lib/promotions-details-header';
+export { PromotionsDetailsPanel } from './lib/promotions-details-panel';
+export { PromotionsDetailsTable } from './lib/promotions-details-table';
+export { PromotionsDetailsFilters } from './lib/promotions-details-filters';
+export { usePromotionsDetails } from './lib/use-promotions-details';
+export * from './lib/promotions-details.model';
+export * from './lib/promotions-details.routes';
+export * from './lib/promotions-details.utils';

@@ -1,0 +1,10 @@
+export { SearchHistoryPage } from './lib/search-history-page';
+export { SearchHistorySummary } from './lib/search-history-summary';
+export { SearchHistoryHeader } from './lib/search-history-header';
+export { SearchHistoryPanel } from './lib/search-history-panel';
+export { SearchHistoryTable } from './lib/search-history-table';
+export { SearchHistoryFilters } from './lib/search-history-filters';
+export { useSearchHistory } from './lib/use-search-history';
+export * from './lib/search-history.model';
+export * from './lib/search-history.routes';
+export * from './lib/search-history.utils';

@@ -1,0 +1,33 @@
+{
+  "name": "@org/shop-feature-wishlist-history",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:wishlist"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-marketing-panel": "*",
+    "@org/shop-ui-charts-header": "*",
+    "@org/shop-ui-core-tile": "*",
+    "@org/shop-ui-layout-panel": "*",
+    "@org/shop-ui-typography-chip": "*",
+    "@org/shop-util-format-currency": "*",
+    "@org/shop-util-validate-phone": "*",
+    "@org/shop-util-collection-address": "*"
+  }
+}

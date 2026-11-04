@@ -1,0 +1,10 @@
+export { SizingDetailsPage } from './lib/sizing-details-page';
+export { SizingDetailsSummary } from './lib/sizing-details-summary';
+export { SizingDetailsHeader } from './lib/sizing-details-header';
+export { SizingDetailsPanel } from './lib/sizing-details-panel';
+export { SizingDetailsTable } from './lib/sizing-details-table';
+export { SizingDetailsFilters } from './lib/sizing-details-filters';
+export { useSizingDetails } from './lib/use-sizing-details';
+export * from './lib/sizing-details.model';
+export * from './lib/sizing-details.routes';
+export * from './lib/sizing-details.utils';

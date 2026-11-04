@@ -1,0 +1,10 @@
+export { ProfileDetailsPage } from './lib/profile-details-page';
+export { ProfileDetailsSummary } from './lib/profile-details-summary';
+export { ProfileDetailsHeader } from './lib/profile-details-header';
+export { ProfileDetailsPanel } from './lib/profile-details-panel';
+export { ProfileDetailsTable } from './lib/profile-details-table';
+export { ProfileDetailsFilters } from './lib/profile-details-filters';
+export { useProfileDetails } from './lib/use-profile-details';
+export * from './lib/profile-details.model';
+export * from './lib/profile-details.routes';
+export * from './lib/profile-details.utils';

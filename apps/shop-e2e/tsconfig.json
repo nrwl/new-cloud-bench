@@ -1,0 +1,328 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "out-tsc/playwright",
+    "sourceMap": false,
+    "types": ["node"]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.js",
+    "playwright.config.ts",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.js",
+    "src/**/*.test.ts",
+    "src/**/*.test.js",
+    "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "out-tsc",
+    "test-output",
+    "eslint.config.js",
+    "eslint.config.mjs",
+    "eslint.config.cjs"
+  ],
+  "references": [
+    {
+      "path": "../../packages/shop/feature-wishlist-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-wishlist-settings"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-tracking-settings"
+    },
+    {
+      "path": "../../packages/shop/feature-support-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-support-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-support-settings"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-details"
+    },
+    {
+      "path": "../../packages/shop/feature-subscriptions-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-details"
+    },
+    {
+      "path": "../../packages/shop/feature-store-locator-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-list"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-sizing-history"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-shipping-settings"
+    },
+    {
+      "path": "../../packages/shop/feature-search-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-search-details"
+    },
+    {
+      "path": "../../packages/shop/feature-search-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-list"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-reviews-history"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-details"
+    },
+    {
+      "path": "../../packages/shop/feature-returns-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-recommendations-settings"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-details"
+    },
+    {
+      "path": "../../packages/shop/feature-promotions-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-list"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-profile-history"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-list"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-preorders-history"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-details"
+    },
+    {
+      "path": "../../packages/shop/feature-payments-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-list"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-orders-history"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-details"
+    },
+    {
+      "path": "../../packages/shop/feature-notifications-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-list"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-loyalty-history"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-list"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-inventory-history"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-gift-cards-settings"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-feedback-settings"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-list"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-compare-history"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-details"
+    },
+    {
+      "path": "../../packages/shop/feature-checkout-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-details"
+    },
+    {
+      "path": "../../packages/shop/feature-catalog-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-list"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-cart-history"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-bundles-settings"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-auth-settings"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-editor"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-details"
+    },
+    {
+      "path": "../../packages/shop/feature-analytics-dashboard"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-overview"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-list"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-insights"
+    },
+    {
+      "path": "../../packages/shop/feature-addresses-history"
+    },
+    {
+      "path": "../../packages/shop/feature-account-wizard"
+    },
+    {
+      "path": "../../packages/shop/feature-account-summary"
+    },
+    {
+      "path": "../../packages/shop/feature-account-settings"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+export { PaymentsDashboardPage } from './lib/payments-dashboard-page';
+export { PaymentsDashboardSummary } from './lib/payments-dashboard-summary';
+export { PaymentsDashboardHeader } from './lib/payments-dashboard-header';
+export { PaymentsDashboardPanel } from './lib/payments-dashboard-panel';
+export { PaymentsDashboardTable } from './lib/payments-dashboard-table';
+export { PaymentsDashboardFilters } from './lib/payments-dashboard-filters';
+export { usePaymentsDashboard } from './lib/use-payments-dashboard';
+export * from './lib/payments-dashboard.model';
+export * from './lib/payments-dashboard.routes';
+export * from './lib/payments-dashboard.utils';

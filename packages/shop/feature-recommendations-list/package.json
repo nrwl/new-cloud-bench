@@ -1,0 +1,34 @@
+{
+  "name": "@org/shop-feature-recommendations-list",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:recommendations"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-feedback-list": "*",
+    "@org/shop-ui-overlay-panel": "*",
+    "@org/shop-ui-layout-panel": "*",
+    "@org/shop-ui-inputs-header": "*",
+    "@org/shop-ui-data-panel": "*",
+    "@org/shop-util-validate-currency": "*",
+    "@org/shop-util-validate-name": "*",
+    "@org/shop-util-i18n-code": "*",
+    "@org/shop-feature-search-list": "*"
+  }
+}

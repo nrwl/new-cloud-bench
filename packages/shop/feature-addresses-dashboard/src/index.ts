@@ -1,0 +1,10 @@
+export { AddressesDashboardPage } from './lib/addresses-dashboard-page';
+export { AddressesDashboardSummary } from './lib/addresses-dashboard-summary';
+export { AddressesDashboardHeader } from './lib/addresses-dashboard-header';
+export { AddressesDashboardPanel } from './lib/addresses-dashboard-panel';
+export { AddressesDashboardTable } from './lib/addresses-dashboard-table';
+export { AddressesDashboardFilters } from './lib/addresses-dashboard-filters';
+export { useAddressesDashboard } from './lib/use-addresses-dashboard';
+export * from './lib/addresses-dashboard.model';
+export * from './lib/addresses-dashboard.routes';
+export * from './lib/addresses-dashboard.utils';

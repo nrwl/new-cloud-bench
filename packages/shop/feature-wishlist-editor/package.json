@@ -1,0 +1,30 @@
+{
+  "name": "@org/shop-feature-wishlist-editor",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:wishlist"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-core-panel": "*",
+    "@org/shop-ui-inputs-toolbar": "*",
+    "@org/shop-ui-layout-toolbar": "*",
+    "@org/shop-util-storage-slug": "*",
+    "@org/shop-util-collection-text": "*"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@org/shop-ui-charts-toolbar",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:ui"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-util-storage-text": "*",
+    "@org/shop-ui-core-tile": "*"
+  }
+}

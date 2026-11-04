@@ -1,0 +1,31 @@
+{
+  "name": "@org/shop-feature-inventory-dashboard",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:inventory"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-media-tile": "*",
+    "@org/shop-ui-inputs-stat": "*",
+    "@org/shop-ui-overlay-header": "*",
+    "@org/shop-ui-media-list": "*",
+    "@org/shop-ui-commerce-badge": "*",
+    "@org/shop-util-validate-percent": "*"
+  }
+}

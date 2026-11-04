@@ -1,0 +1,10 @@
+export { CatalogDetailsPage } from './lib/catalog-details-page';
+export { CatalogDetailsSummary } from './lib/catalog-details-summary';
+export { CatalogDetailsHeader } from './lib/catalog-details-header';
+export { CatalogDetailsPanel } from './lib/catalog-details-panel';
+export { CatalogDetailsTable } from './lib/catalog-details-table';
+export { CatalogDetailsFilters } from './lib/catalog-details-filters';
+export { useCatalogDetails } from './lib/use-catalog-details';
+export * from './lib/catalog-details.model';
+export * from './lib/catalog-details.routes';
+export * from './lib/catalog-details.utils';

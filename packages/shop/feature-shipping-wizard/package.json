@@ -1,0 +1,33 @@
+{
+  "name": "@org/shop-feature-shipping-wizard",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:shipping"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-marketing-banner": "*",
+    "@org/shop-ui-media-banner": "*",
+    "@org/shop-ui-overlay-stat": "*",
+    "@org/shop-ui-overlay-banner": "*",
+    "@org/shop-ui-typography-header": "*",
+    "@org/shop-util-i18n-percent": "*",
+    "@org/shop-util-validate-percent": "*",
+    "@org/shop-util-format-slug": "*"
+  }
+}

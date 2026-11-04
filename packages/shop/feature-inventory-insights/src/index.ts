@@ -1,0 +1,10 @@
+export { InventoryInsightsPage } from './lib/inventory-insights-page';
+export { InventoryInsightsSummary } from './lib/inventory-insights-summary';
+export { InventoryInsightsHeader } from './lib/inventory-insights-header';
+export { InventoryInsightsPanel } from './lib/inventory-insights-panel';
+export { InventoryInsightsTable } from './lib/inventory-insights-table';
+export { InventoryInsightsFilters } from './lib/inventory-insights-filters';
+export { useInventoryInsights } from './lib/use-inventory-insights';
+export * from './lib/inventory-insights.model';
+export * from './lib/inventory-insights.routes';
+export * from './lib/inventory-insights.utils';

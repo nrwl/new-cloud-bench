@@ -1,0 +1,29 @@
+{
+  "name": "@org/shop-feature-catalog-list",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:catalog"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-marketing-card": "*",
+    "@org/shop-ui-feedback-panel": "*",
+    "@org/shop-ui-inputs-toolbar": "*",
+    "@org/shop-util-format-date": "*"
+  }
+}

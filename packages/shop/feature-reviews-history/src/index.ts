@@ -1,0 +1,10 @@
+export { ReviewsHistoryPage } from './lib/reviews-history-page';
+export { ReviewsHistorySummary } from './lib/reviews-history-summary';
+export { ReviewsHistoryHeader } from './lib/reviews-history-header';
+export { ReviewsHistoryPanel } from './lib/reviews-history-panel';
+export { ReviewsHistoryTable } from './lib/reviews-history-table';
+export { ReviewsHistoryFilters } from './lib/reviews-history-filters';
+export { useReviewsHistory } from './lib/use-reviews-history';
+export * from './lib/reviews-history.model';
+export * from './lib/reviews-history.routes';
+export * from './lib/reviews-history.utils';

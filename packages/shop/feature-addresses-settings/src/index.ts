@@ -1,0 +1,10 @@
+export { AddressesSettingsPage } from './lib/addresses-settings-page';
+export { AddressesSettingsSummary } from './lib/addresses-settings-summary';
+export { AddressesSettingsHeader } from './lib/addresses-settings-header';
+export { AddressesSettingsPanel } from './lib/addresses-settings-panel';
+export { AddressesSettingsTable } from './lib/addresses-settings-table';
+export { AddressesSettingsFilters } from './lib/addresses-settings-filters';
+export { useAddressesSettings } from './lib/use-addresses-settings';
+export * from './lib/addresses-settings.model';
+export * from './lib/addresses-settings.routes';
+export * from './lib/addresses-settings.utils';

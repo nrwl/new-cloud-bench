@@ -1,0 +1,10 @@
+export { FeedbackDetailsPage } from './lib/feedback-details-page';
+export { FeedbackDetailsSummary } from './lib/feedback-details-summary';
+export { FeedbackDetailsHeader } from './lib/feedback-details-header';
+export { FeedbackDetailsPanel } from './lib/feedback-details-panel';
+export { FeedbackDetailsTable } from './lib/feedback-details-table';
+export { FeedbackDetailsFilters } from './lib/feedback-details-filters';
+export { useFeedbackDetails } from './lib/use-feedback-details';
+export * from './lib/feedback-details.model';
+export * from './lib/feedback-details.routes';
+export * from './lib/feedback-details.utils';

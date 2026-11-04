@@ -1,0 +1,10 @@
+export { BundlesInsightsPage } from './lib/bundles-insights-page';
+export { BundlesInsightsSummary } from './lib/bundles-insights-summary';
+export { BundlesInsightsHeader } from './lib/bundles-insights-header';
+export { BundlesInsightsPanel } from './lib/bundles-insights-panel';
+export { BundlesInsightsTable } from './lib/bundles-insights-table';
+export { BundlesInsightsFilters } from './lib/bundles-insights-filters';
+export { useBundlesInsights } from './lib/use-bundles-insights';
+export * from './lib/bundles-insights.model';
+export * from './lib/bundles-insights.routes';
+export * from './lib/bundles-insights.utils';

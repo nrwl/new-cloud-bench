@@ -1,0 +1,30 @@
+{
+  "name": "@org/shop-feature-orders-summary",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:orders"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-charts-stat": "*",
+    "@org/shop-ui-typography-banner": "*",
+    "@org/shop-ui-commerce-card": "*",
+    "@org/shop-ui-overlay-toolbar": "*",
+    "@org/shop-util-async-address": "*"
+  }
+}

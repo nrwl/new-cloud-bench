@@ -1,0 +1,10 @@
+export { RecommendationsSummaryPage } from './lib/recommendations-summary-page';
+export { RecommendationsSummarySummary } from './lib/recommendations-summary-summary';
+export { RecommendationsSummaryHeader } from './lib/recommendations-summary-header';
+export { RecommendationsSummaryPanel } from './lib/recommendations-summary-panel';
+export { RecommendationsSummaryTable } from './lib/recommendations-summary-table';
+export { RecommendationsSummaryFilters } from './lib/recommendations-summary-filters';
+export { useRecommendationsSummary } from './lib/use-recommendations-summary';
+export * from './lib/recommendations-summary.model';
+export * from './lib/recommendations-summary.routes';
+export * from './lib/recommendations-summary.utils';

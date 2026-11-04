@@ -1,0 +1,10 @@
+export { NotificationsDashboardPage } from './lib/notifications-dashboard-page';
+export { NotificationsDashboardSummary } from './lib/notifications-dashboard-summary';
+export { NotificationsDashboardHeader } from './lib/notifications-dashboard-header';
+export { NotificationsDashboardPanel } from './lib/notifications-dashboard-panel';
+export { NotificationsDashboardTable } from './lib/notifications-dashboard-table';
+export { NotificationsDashboardFilters } from './lib/notifications-dashboard-filters';
+export { useNotificationsDashboard } from './lib/use-notifications-dashboard';
+export * from './lib/notifications-dashboard.model';
+export * from './lib/notifications-dashboard.routes';
+export * from './lib/notifications-dashboard.utils';

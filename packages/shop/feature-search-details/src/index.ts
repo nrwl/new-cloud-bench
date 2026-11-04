@@ -1,0 +1,10 @@
+export { SearchDetailsPage } from './lib/search-details-page';
+export { SearchDetailsSummary } from './lib/search-details-summary';
+export { SearchDetailsHeader } from './lib/search-details-header';
+export { SearchDetailsPanel } from './lib/search-details-panel';
+export { SearchDetailsTable } from './lib/search-details-table';
+export { SearchDetailsFilters } from './lib/search-details-filters';
+export { useSearchDetails } from './lib/use-search-details';
+export * from './lib/search-details.model';
+export * from './lib/search-details.routes';
+export * from './lib/search-details.utils';

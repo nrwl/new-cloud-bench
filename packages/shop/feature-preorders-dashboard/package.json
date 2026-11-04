@@ -1,0 +1,32 @@
+{
+  "name": "@org/shop-feature-preorders-dashboard",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:preorders"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-core-header": "*",
+    "@org/shop-ui-typography-list": "*",
+    "@org/shop-ui-core-panel": "*",
+    "@org/shop-ui-layout-badge": "*",
+    "@org/shop-util-i18n-date": "*",
+    "@org/shop-util-format-slug": "*",
+    "@org/shop-util-format-date": "*"
+  }
+}

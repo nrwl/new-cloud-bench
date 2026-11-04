@@ -1,0 +1,30 @@
+{
+  "name": "@org/shop-feature-compare-settings",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "nx": {
+    "tags": [
+      "scope:shop",
+      "type:feature",
+      "domain:compare"
+    ]
+  },
+  "devDependencies": {
+    "@org/models": "*",
+    "@org/shop-shared-ui": "*",
+    "@org/shop-ui-feedback-stat": "*",
+    "@org/shop-ui-forms-chip": "*",
+    "@org/shop-ui-data-tile": "*",
+    "@org/shop-ui-navigation-stat": "*",
+    "@org/shop-util-format-address": "*"
+  }
+}

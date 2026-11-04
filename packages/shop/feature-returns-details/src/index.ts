@@ -1,0 +1,10 @@
+export { ReturnsDetailsPage } from './lib/returns-details-page';
+export { ReturnsDetailsSummary } from './lib/returns-details-summary';
+export { ReturnsDetailsHeader } from './lib/returns-details-header';
+export { ReturnsDetailsPanel } from './lib/returns-details-panel';
+export { ReturnsDetailsTable } from './lib/returns-details-table';
+export { ReturnsDetailsFilters } from './lib/returns-details-filters';
+export { useReturnsDetails } from './lib/use-returns-details';
+export * from './lib/returns-details.model';
+export * from './lib/returns-details.routes';
+export * from './lib/returns-details.utils';

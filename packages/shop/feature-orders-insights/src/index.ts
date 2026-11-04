@@ -1,0 +1,10 @@
+export { OrdersInsightsPage } from './lib/orders-insights-page';
+export { OrdersInsightsSummary } from './lib/orders-insights-summary';
+export { OrdersInsightsHeader } from './lib/orders-insights-header';
+export { OrdersInsightsPanel } from './lib/orders-insights-panel';
+export { OrdersInsightsTable } from './lib/orders-insights-table';
+export { OrdersInsightsFilters } from './lib/orders-insights-filters';
+export { useOrdersInsights } from './lib/use-orders-insights';
+export * from './lib/orders-insights.model';
+export * from './lib/orders-insights.routes';
+export * from './lib/orders-insights.utils';

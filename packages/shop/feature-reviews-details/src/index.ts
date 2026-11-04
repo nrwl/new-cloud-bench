@@ -1,0 +1,10 @@
+export { ReviewsDetailsPage } from './lib/reviews-details-page';
+export { ReviewsDetailsSummary } from './lib/reviews-details-summary';
+export { ReviewsDetailsHeader } from './lib/reviews-details-header';
+export { ReviewsDetailsPanel } from './lib/reviews-details-panel';
+export { ReviewsDetailsTable } from './lib/reviews-details-table';
+export { ReviewsDetailsFilters } from './lib/reviews-details-filters';
+export { useReviewsDetails } from './lib/use-reviews-details';
+export * from './lib/reviews-details.model';
+export * from './lib/reviews-details.routes';
+export * from './lib/reviews-details.utils';

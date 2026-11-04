@@ -1,0 +1,10 @@
+export { CompareInsightsPage } from './lib/compare-insights-page';
+export { CompareInsightsSummary } from './lib/compare-insights-summary';
+export { CompareInsightsHeader } from './lib/compare-insights-header';
+export { CompareInsightsPanel } from './lib/compare-insights-panel';
+export { CompareInsightsTable } from './lib/compare-insights-table';
+export { CompareInsightsFilters } from './lib/compare-insights-filters';
+export { useCompareInsights } from './lib/use-compare-insights';
+export * from './lib/compare-insights.model';
+export * from './lib/compare-insights.routes';
+export * from './lib/compare-insights.utils';
