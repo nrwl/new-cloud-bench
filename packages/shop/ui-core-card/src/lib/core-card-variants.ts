@@ -15,7 +15,7 @@ const TONE_COLORS: Record<
   CoreCardTone,
   { background: string; color: string; border: string }
 > = {
-  neutral: { background: '#f7f7f9', color: '#333333', border: '#dcdce3' },
+  neutral: { background: '#e9e9f2', color: '#303038', border: '#c4c4d2' },
   info: { background: '#e8f1fd', color: '#1d4ed8', border: '#bfd7fb' },
   success: { background: '#e7f7ee', color: '#15803d', border: '#b7e4c7' },
   warning: { background: '#fff7e6', color: '#b45309', border: '#fde3a7' },
